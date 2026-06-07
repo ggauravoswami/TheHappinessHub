@@ -1,0 +1,7 @@
+body{font-family:Arial,sans-serif;margin:0;background:linear-gradient(135deg,#aee2ff,#e5d9ff);text-align:center}
+.hero,.card{margin:20px;padding:25px;border-radius:20px;background:rgba(255,255,255,.35);backdrop-filter:blur(10px)}
+button{padding:10px 15px;border:none;border-radius:20px;cursor:pointer}
+.breathing{width:120px;height:120px;border-radius:50%;background:#fff;margin:auto;animation:b 6s infinite}
+@keyframes b{50%{transform:scale(1.5)}}
+.bubble{width:40px;height:40px;border-radius:50%;background:pink;position:absolute;cursor:pointer}
+.dark{background:#111;color:white}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happiness Hub Premium</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+<h1>🌈 Happiness Hub</h1>
+<p>Small activities, better mood, calmer mind.</p>
+<button onclick="emergencyCalm()">🚨 Emergency Calm</button>
+<button onclick="toggleTheme()">🌙 Theme</button>
+</header>
+
+<section class="card">
+<h2>😊 Mood Mirror</h2>
+<select id="mood">
+<option>Happy</option><option>Sad</option><option>Stressed</option>
+<option>Tired</option><option>Angry</option>
+</select>
+<button onclick="recommend()">Get Recommendation</button>
+<p id="result"></p>
+</section>
+
+<section class="card">
+<h2>🫁 Breathing Exercise</h2>
+<div class="breathing"></div>
+</section>
+
+<section class="card">
+<h2>🎮 Calm Arcade</h2>
+<div id="game"></div>
+<p>Score: <span id="score">0</span></p>
+</section>
+
+<section class="card">
+<h2>🙏 Gratitude Journal</h2>
+<input id="gratitude" placeholder="Write something positive">
+<button onclick="saveGratitude()">Save</button>
+<ul id="list"></ul>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
